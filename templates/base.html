@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="shortcut icon" href="media/icons/olacy_vet_icon.svg" type="image/x-icon" />
     <title>{% block title %}Olacy's Vet{% endblock title %}</title>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-sm py-3 border-bottom navbar-light">
         <div class="container">
             <a href="{% url 'pages:home' %}" class="navbar-brand">
-                <span class="font-weight-bold h3">Loja Python</span>
+                <span class="font-weight-bold h3">Olacy's Vet</span>
             </a>
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -24,11 +25,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
+                    <li>
+                      <li class="nav-item">
+                        <a href="{% url 'pages:home' %}" class="nav-link lead mr-4 font-weight-bold">Home</a>
+                    </li>
+                    <li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link lead mr-4 font-weight-bold">Prime</a>
+                    </li>
                     <li class="nav-item">
                         <a href="{% url 'products:list' %}" class="nav-link lead mr-4 font-weight-bold">Produtos</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{% url 'pages:about' %}" class="nav-link lead mr-4 font-weight-bold">Sobre Nós</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link lead mr-4 font-weight-bold nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quem Somos</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown01">
+                      <a class="dropdown-item" href="{% url 'pages:about' %}">Sobre Nós</a>
+                      <a class="dropdown-item" href="#">Equipe</a>
+                      <a class="dropdown-item" href="#">Serviços</a>
+                    </div>
                     </li>
                 </ul>
             </div>
@@ -46,5 +60,65 @@
         crossorigin="anonymous"></script>
 
 </body>
+
+<footer>
+    <hr class="featurette-divider">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <img alt="tel_image" width="200" height="100" data-sticky-width="150" data-sticky-height="40" src="{% static 'images/OlacyVet_icon.jpg' %}">
+              <p>
+                Av. Pelinca, 410 - Parque Tamandaré<br>
+                ,Campos dos Goytacazes<br>
+                <a href="https://www.instagram.com/olacyrodrigues/"> <img src = "{% static 'images/instagram_icon.svg' %}" alt="Instagram_Icon"/></a>
+                <a href="https://www.facebook.com"><img src = "{% static 'images/facebook_icon.svg' %}" alt="Facebook_Icon"/></a>
+                <a href="https://www.linkedin.com/in/olacy-rodrigues-449a03170/"><img src = "{% static 'images/linkedin_icon.svg' %}" alt="Linkedin_icon"/></a>
+                <a href="https://github.com/olacyrodrigues"><img src = "{% static 'images/Github_icon.svg' %}" alt="Github_icon"/></a>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links Úteis</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'pages:home' %}">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'pages:about' %}">Sobre nós</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">equipe</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Fale conosco</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nossos Serviços</h4>
+            <ul>
+             
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Prime</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
+            </ul>
+          </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Ajuda</h4>
+            <ul>
+             
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Entregas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cancelamentos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Política de privacidade</a></li>
+            </ul>
+          </div>
+ 
+        </div>
+      </div>
+    </div>
+    <div align="center" class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Olacy's Vet</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
 
 </html>

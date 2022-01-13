@@ -154,3 +154,8 @@ import socket  # noqa
 
 hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
 INTERNAL_IPS = [ip[:-1] + "1" for ip in ips]
+
+#cart
+
+CART_SESSION_ID = "cart"
+CART_ITEM_MAX_QUANTITY = 20

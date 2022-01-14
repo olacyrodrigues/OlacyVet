@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     #apps da comunidade
     'debug_toolbar',
+    'widget_tweaks',
 
     #meus apps
 

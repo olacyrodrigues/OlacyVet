@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}Prime{% endblock title %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/prime.css' %}" />
+
+<br><br>
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">O prime</h2>
+            <h3 class="section-subheading text-muted">Chegou!!!!</h3>
+        </div>
+        <br><br><br>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                </span>
+                <img class="rounded-circle" src="https://box.petiko.com.br/images/dogs-petiko.png" alt="Generic placeholder image" width="140" height="140">
+                <h4 class="my-3">Desmonstre seu amor</h4>
+                <p class="text-muted">Com o prime você recebe mensalmente itens e brinquedos voltados para seu pet</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                </span>
+                <img class="rounded-circle" src="https://box.petiko.com.br/images/caixa-petiko.png" alt="Generic placeholder image" width="140" height="140">
+                <h4 class="my-3">Escolha</h4>
+                <p class="text-muted">lanos mensais, semestrais e anuais. Aqui você tem a garantia de que o valor dos itens sempre valerão mais do que o valor pago. Assinaturas a partir de R$ 79,90/mês</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                </span>
+                <img class="rounded-circle" src="https://box.petiko.com.br/images/presente-petiko.png" alt="Generic placeholder image" width="140" height="140">
+                <h4 class="my-3">Presenteie</h4>
+                <p class="text-muted">Agora a melhor hora: Todos os meses você receberá um kit especialmente selecionado para seu cachorro contendo de 7 a 8 itens.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section class="page-section cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <div class="cta-inner bg-faded text-center rounded">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Quer ainda mais vantagens?</span>
+                        <span class="section-heading-lower">Então toma!</span>
+                    </h2>
+                    <ul>
+                        <li>5% de desconto em todas as consultas na Clínica Olacy's Vet</li>
+                        <li>Programa de indicação: Você ganha R$50,00 para gastar na Olacy's Vet</li> 
+                        <p>para cada amigo que você convidar para fazer parte do Prime</p></li>
+                        </ul>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about">
+    <div class="main">
+        <img src="https://i.imgur.com/V9OrM0r.jpg">
+        <div class="about-text">
+            <h3>Gostou do prime?</h3>
+            <p>Não perca essa oportunidade e compre para receber essa caixa de surpresas recheadas com itens para seu peludinho.</p>
+            <button type="button" onclick="window.location.href ='{% url 'products:list' %}'" >Comprar</button>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}

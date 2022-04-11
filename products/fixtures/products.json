@@ -20,6 +20,16 @@
         }
     },
     {
+        "model": "products.category",
+        "pk": 4,
+        "fields": {
+            "created": "2020-11-29T19:48:53.913Z",
+            "modified": "2020-11-29T19:48:53.913Z",
+            "name": "Assinaturas",
+            "slug": "Assinaturas"
+        }
+    },
+    {
         "model": "products.product",
         "pk": 3,
         "fields": {
@@ -166,6 +176,66 @@
             "image": "products/2021/01/07/Brinquedo_caca_rato.JPG",
             "description": "Gato entendiado dentro de casa? Não com o Caça Rato! Essa tenda vem com uma bolinha com sino que bigodudos adoram, um ratinho e 9 buracos para praticar as habilidades de caça e deixar seu pet sempre ativo.",
             "price": "90.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "created": "2021-01-07T16:15:23.477Z",
+            "modified": "2021-01-07T16:15:23.477Z",
+            "category": 4,
+            "name": "Assinatura dog premium 6 itens",
+            "slug": "assinatura-dog-premium",
+            "image": "products/2021/01/07/dog_premium.JPG",
+            "description": "Plano mensal recheado de pelúcias temáticas, brinquedos interativos, petiscos saudáveis para seu cachorrinho.",
+            "price": "105.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "created": "2021-01-07T16:15:23.477Z",
+            "modified": "2021-01-07T16:15:23.477Z",
+            "category": 4,
+            "name": "Assinatura cat premium 6 itens",
+            "slug": "assinatura-cat-premium",
+            "image": "products/2021/01/07/cat_premium.JPG",
+            "description": "Plano mensal recheado de pelúcias temáticas, brinquedos interativos, petiscos saudáveis para seu gatinho.",
+            "price": "105.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "created": "2021-01-07T16:15:23.477Z",
+            "modified": "2021-01-07T16:15:23.477Z",
+            "category": 4,
+            "name": "Assinatura combo com 5 itens para cachorro e 5 para gato",
+            "slug": "assinatura-combo-premium",
+            "image": "products/2021/01/07/combo_premium.JPG",
+            "description": "Plano mensal recheado de pelúcias temáticas, brinquedos interativos, petiscos saudáveis para seu gatinho e seu doguinho.",
+            "price": "168.90",
+            "is_available": true
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "created": "2021-01-07T16:15:23.477Z",
+            "modified": "2021-01-07T16:15:23.477Z",
+            "category": 4,
+            "name": "Assinatura dog super premium",
+            "slug": "assinatura-dog-super-premium",
+            "image": "products/2021/01/07/Super_Premium_Dogs.JPG",
+            "description": "Plano mensal recheado com o dobro de pelúcias temáticas, dobro de brinquedos interativos, dobro de petiscos saudáveis para seu doguinho.",
+            "price": "168.90",
             "is_available": true
         }
     }

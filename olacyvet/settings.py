@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
-    'payments.apps.PaymentsConfig',
+    "payments.apps.PaymentsConfig",
  
 
 ]
@@ -178,3 +178,5 @@ env = environ.Env()
 env.read_env(str(BASE_DIR / ".env"))
 MERCADO_PAGO_PUBLIC_KEY = env("MERCADO_PAGO_PUBLIC_KEY")
 MERCADO_PAGO_ACCESS_TOKEN = env("MERCADO_PAGO_ACCESS_TOKEN")
+
+

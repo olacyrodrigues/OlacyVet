@@ -14,9 +14,10 @@ que é necessária na relação empresa e cliente.
 
 
 ## Screenshots
-<div align="center">
- <img src="https://acquakoi.com.br/wp-content/uploads/2016/12/16069d_b99f14faa1f644cc9cec4fb67d82a4dc.jpg" width="500px" />
-</div>
+
+![ezgif-4-19ea250511](https://user-images.githubusercontent.com/71050110/178052749-be1d1a22-fff6-4fe2-895f-adae7be3fd7a.gif)
+![ezgif-4-0189017c75](https://user-images.githubusercontent.com/71050110/178052268-8ee42c84-4043-424f-9816-f20217646792.gif)
+
 
 ## Tecnlogias
 

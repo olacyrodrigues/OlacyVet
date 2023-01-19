@@ -10,7 +10,7 @@ que é necessária na relação empresa e cliente.
 
 ## Status
 
->  Status: Em andamento ⚠️
+>  Status: Finalizado ✅
 
 
 ## Screenshots

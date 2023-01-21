@@ -74,7 +74,7 @@ Para rodar os testes, rode o seguinte comando
  - [Django 3 By Example](https://www.amazon.com.br/Aprenda-Django-com-Exemplos-Profissionais/dp/658605723X/ref=asc_df_658605723X/?tag=googleshopp00-20&linkCode=df0&hvadid=379748659420&hvpos=&hvnetw=g&hvrand=2034265693739587747&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001646&hvtargid=pla-944617609858&psc=1)
 
 ## 🚀 Sobre mim
-<p>Sou um desenvolvedor iniciante em busca constante de conhecimento, sinta-se avontade para
+<p>Sou um desenvolvedor iniciante em busca constante de conhecimento, sinta-se à vontade para
 me procurar em alguma rede social.</p>
 <p> ps: não possuo direitos sobrea as imagens, seus usos foram única e exclusivamente para fins de estudo. caso alguém queira a retirada basta entrar em contato.</p>
 
